@@ -1,5 +1,5 @@
 # MuetzillaClicker 
-by @Muetzilla
+by @Muetzilla AND @Zwazel LETS GOO
 
 
 IT IS NOW DOING THE WORK
