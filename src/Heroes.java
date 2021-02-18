@@ -1,5 +1,3 @@
-package muetzillaclicker;
-
 public abstract class Heroes {
 
     protected double dps;

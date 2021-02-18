@@ -1,4 +1,4 @@
-package muetzillaclicker;
+import java.util.ArrayList;
 
 public class HeroesRun implements Runnable {
     private Thread heroes;
@@ -8,14 +8,23 @@ public class HeroesRun implements Runnable {
         this.threadName = threadName;
     }
 
+    ArrayList<Heroes> heroesList = new ArrayList<>();
+
     @Override
     public void run() {
         System.out.println("Thread running " + threadName);
+        Heroes iceWolf = new IceWolf();
+        heroesList.add(iceWolf);
+
 
         // Methods that should be executed HERE
 
 
         System.out.println("Thread ended " + threadName);
+    }
+
+    public void printHeroesOnFrame() {
+
     }
 
     public void start() {
