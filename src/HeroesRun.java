@@ -18,8 +18,16 @@ public class HeroesRun implements Runnable {
 
 
         // Methods that should be executed HERE
+        for (int i = 0; i < 60; i++) {
 
 
+            System.out.println("Thread Running" + i);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
         System.out.println("Thread ended " + threadName);
     }
 
