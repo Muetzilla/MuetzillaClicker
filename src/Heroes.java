@@ -1,10 +1,12 @@
 public abstract class Heroes {
 
-    protected double dps;
-    protected double priceNewLevel;
-    protected double damageNewLevel;
-
+    protected double currentDPS;
+    protected double currentPrice;
+    protected double basicPrice;
+    protected double basicDamage;
     public Heroes() {
 
     }
+    protected abstract void newDamage();
+    protected abstract void newPrice();
 }
