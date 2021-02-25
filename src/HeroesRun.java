@@ -1,5 +1,3 @@
-package srcFX;
-
 import java.util.ArrayList;
 
 public class HeroesRun implements Runnable {
