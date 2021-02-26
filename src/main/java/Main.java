@@ -17,8 +17,6 @@ public class Main extends Application {
 
     long unixTimeEnd;
     long unixTimeStart;
-    final int MAX_VALUE = 100;
-    final int MIN_VALUE = 0;
     int clicksNeededForNextLevelIW = 10;
 
 
