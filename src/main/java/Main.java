@@ -1,12 +1,7 @@
 import javafx.application.Application;
 import javafx.stage.Stage;
-
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import java.time.Instant;
 
 public class Main extends Application {
@@ -45,7 +40,7 @@ public class Main extends Application {
 
 
 
-   
+
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == button) {
             clicks += clickDamage;
