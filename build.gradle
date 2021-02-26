@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
+
+javafx {
+    version = "15.0.1"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+    configuration = 'compileOnly'
+}
