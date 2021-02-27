@@ -9,7 +9,8 @@ assignees: ''
 
 **Beschreibung des Heroes**
 
-* Standard DPS:
+* Standard Schaden:
+* Kaufpreis:
 * Neuer Schaden pro Level: 
 * Kosten für ein neues Level:
 
