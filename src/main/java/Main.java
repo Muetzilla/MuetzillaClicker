@@ -1,10 +1,8 @@
-import javafx.application.Application;
-import javafx.stage.Stage;
-import java.awt.*;
+
 import java.awt.event.ActionEvent;
 import java.time.Instant;
 
-public class Main extends Application {
+public class Main {
 
     int clicks = 0;
     int clicksForStage = 0;
@@ -27,9 +25,8 @@ public class Main extends Application {
         heroesRun.start();
     }
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-
+    public static void main(String[] args) {
+      MainFx.main(args);
     }
 
     private void initComponents() {

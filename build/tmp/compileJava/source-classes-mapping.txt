@@ -2,9 +2,11 @@ Heroes.java
  Heroes
 IceWolf.java
  IceWolf
-Main.java
- Main
 HeroesRun.java
  HeroesRun
+Controller.java
+ Controller
 MainFx.java
  MainFx
+Main.java
+ Main

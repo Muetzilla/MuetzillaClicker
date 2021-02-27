@@ -7,7 +7,6 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class MainFx extends Application {
-
     public static void main(String[] args) {
         launch(args);
     }
@@ -16,7 +15,7 @@ public class MainFx extends Application {
     public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("view/gameframe.fxml"));
         primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
     }
 }
