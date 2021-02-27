@@ -1,9 +1,10 @@
+Heroes.java
+ Heroes
 IceWolf.java
  IceWolf
 Main.java
  Main
- Main$1
 HeroesRun.java
  HeroesRun
-Heroes.java
- Heroes
+MainFx.java
+ MainFx

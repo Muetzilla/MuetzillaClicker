@@ -37,10 +37,8 @@ public class Main extends Application {
     }
 
 
-
-
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == button) {
+       /* if (e.getSource() == button) {
             clicks += clickDamage;
             clicksForStage++;
             label.setText("Klicks: " + clicks);
@@ -101,5 +99,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         new Main();
+    }*/
     }
 }
