@@ -1,4 +1,5 @@
 # MuetzillaClicker 
+by @Muetzilla AND @Zwazel LETS GOO
 
 THERE ARE TWO THREADS WOW MAGIC!!
 
