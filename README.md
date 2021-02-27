@@ -1,6 +1,5 @@
 # MuetzillaClicker 
-by @Muetzilla AND @Zwazel LETS GOO
-
+by @Muetzilla AND @Zwazel 
 THERE ARE TWO THREADS WOW MAGIC!!
 
-It is not doing the work :(
+Well It is sometimes doing the work :|
