@@ -14,7 +14,7 @@ public class MainFx extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("view/gameframe.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Muetzilla Clicker");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
     }
