@@ -22,7 +22,6 @@ public class Main {
 
     public Main() {
         unixTimeStart = Instant.now().getEpochSecond();
-        GameframeController gfc = new GameframeController();
         HeroesRun heroesRun = new HeroesRun("TEST");
         heroesRun.start();
 
