@@ -32,7 +32,7 @@ public class Main {
       new Main();
       MainFx.main(args);
 
-      
+
     }
 
     private void initComponents() {
