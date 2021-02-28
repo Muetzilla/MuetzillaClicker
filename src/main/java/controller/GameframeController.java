@@ -1,9 +1,12 @@
 package controller;
 
-public class gameframeController {
 
+import calculations.RuntimeCalculations;
+
+public class GameframeController {
+ RuntimeCalculations calc = new RuntimeCalculations();
     public void handleClickerAction(javafx.event.ActionEvent actionEvent) {
-        // Button was clicked, do something...
         System.out.println("Button Pressed");
+
     }
 }

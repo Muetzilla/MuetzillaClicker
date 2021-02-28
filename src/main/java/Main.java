@@ -1,4 +1,6 @@
 
+import controller.GameframeController;
+
 import java.awt.event.ActionEvent;
 import java.time.Instant;
 
@@ -20,13 +22,15 @@ public class Main {
 
     public Main() {
         unixTimeStart = Instant.now().getEpochSecond();
-        initComponents();
+        GameframeController gfc = new GameframeController();
         HeroesRun heroesRun = new HeroesRun("TEST");
         heroesRun.start();
+
     }
 
     public static void main(String[] args) {
       MainFx.main(args);
+      new Main();
     }
 
     private void initComponents() {
