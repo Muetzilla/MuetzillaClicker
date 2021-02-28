@@ -3,7 +3,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 public class MainFx extends Application {
@@ -18,4 +17,6 @@ public class MainFx extends Application {
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
     }
+
+
 }
