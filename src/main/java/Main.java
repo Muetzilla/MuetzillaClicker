@@ -6,22 +6,11 @@ import java.time.Instant;
 
 public class Main {
 
-    int clicks = 0;
-    int clicksForStage = 0;
-    int clickDamage = 1;
-    int clickerLevel = 1;
-    int clicksNeededForNextLevel = 10;
 
-    int iceWolfCurrentLevel = 0;
-    int IceWolfCurrentDamage = 10;
-
-    long unixTimeEnd;
-    long unixTimeStart;
-    int clicksNeededForNextLevelIW = 10;
 
 
     public Main() {
-        unixTimeStart = Instant.now().getEpochSecond();
+        //System.out.println(Instant.now().getEpochSecond());
         HeroesRun heroesRun = new HeroesRun("TEST");
         heroesRun.start();
 
@@ -33,11 +22,6 @@ public class Main {
 
 
     }
-
-    private void initComponents() {
-
-    }
-
 
     public void actionPerformed(ActionEvent e) {
        /* if (e.getSource() == button) {
