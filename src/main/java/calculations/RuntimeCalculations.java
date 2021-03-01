@@ -26,7 +26,7 @@ public class RuntimeCalculations {
     }
     public void clicksClicked(boolean clickWasPressed){
         if(clickWasPressed){
-            clicks++;
+            clicks += clickDamage;
         }
         System.out.println(clicks);
     }
