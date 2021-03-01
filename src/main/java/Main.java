@@ -24,7 +24,7 @@ public class Main {
     }
 
     public void actionPerformed(ActionEvent e) {
-       /* if (e.getSource() == button) {
+        /*if (e.getSource() == button) {
             clicks += clickDamage;
             clicksForStage++;
             label.setText("Klicks: " + clicks);
