@@ -62,4 +62,17 @@ public class RuntimeCalculations {
     public void setClicksNeededForNextLevel(int clicksNeededForNextLevel) {
         this.clicksNeededForNextLevel = clicksNeededForNextLevel;
     }
+
+    public void clickerLevelUp(boolean levelUpClicked) {
+        int nextLevelMulti = 4;
+        int damageMulti = 3;
+        if(levelUpClicked && clicks >= clicksNeededForNextLevel){
+            clicks -= clicksNeededForNextLevel;
+            clickDamage += ((clickerLevel / 2 + 3) * damageMulti);
+            clicksNeededForNextLevel += ((clicksNeededForNextLevel / 3 + 1) * nextLevelMulti);
+            clickerLevel++;
+        }
+        System.out.println(clicksNeededForNextLevel);
+        System.out.println(clickerLevel);
+    }
 }

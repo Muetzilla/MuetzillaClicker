@@ -8,4 +8,7 @@ public class GameframeController {
     public void handleClickerAction(javafx.event.ActionEvent actionEvent) {
        calc.clicksClicked(true);
     }
+    public void handleLevelUpAction(javafx.event.ActionEvent actionEvent) {
+        calc.clickerLevelUp(true);
+    }
 }
