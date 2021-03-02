@@ -30,7 +30,7 @@
                               </HBox>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false"  text="Level UP!" />
+                                    <Button mnemonicParsing="false" text="Level UP!" />
                                     <Label text="Hero Name" />
                                     <Label text="Label" />
                                     <Label text="Label" />
@@ -79,7 +79,7 @@
             <Label text="Münzen: " />
             <Label text="Aktueller Schaden: " />
             <Label text="Level des Clickers: " />
-            <Label text="Level Up Kosten: " />
+            <Label fx:id="levelUpCosts" text="Level Up Kosten: " />
           <Button mnemonicParsing="false" onAction="#handleLevelUpAction" text="Level Up" />
         </buttons>
       </ButtonBar>

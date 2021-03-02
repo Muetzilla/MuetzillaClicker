@@ -10,6 +10,8 @@ public class GameframeController {
     }
     public void handleLevelUpAction(javafx.event.ActionEvent actionEvent) {
         calc.clickerLevelUp(true);
-        System.out.println("LevelUp Pressed!");
+    }
+    public void setLevelUp(){
+        levelUpCosts.setText();
     }
 }
