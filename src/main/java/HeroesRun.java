@@ -15,6 +15,8 @@ public class HeroesRun implements Runnable {
         System.out.println("Thread running " + threadName);
         Heroes iceWolf = new IceWolf();
         heroesList.add(iceWolf);
+        double iceWolfDamage = iceWolf.currentDPS;
+        double iceWolfPrice = iceWolf.currentPrice;
 
 
         // Methods that should be executed HERE
