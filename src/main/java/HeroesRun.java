@@ -1,9 +1,11 @@
+import calculations.RuntimeCalculations;
+
 import java.util.ArrayList;
 
 public class HeroesRun implements Runnable {
     private Thread heroes;
     private final String threadName;
-
+    RuntimeCalculations rtc = new RuntimeCalculations();
     public HeroesRun(String threadName) {
         this.threadName = threadName;
     }
@@ -17,7 +19,7 @@ public class HeroesRun implements Runnable {
         heroesList.add(iceWolf);
         double iceWolfDamage = iceWolf.currentDPS;
         double iceWolfPrice = iceWolf.currentPrice;
-
+        rtc.setClicks(iceWolfDamage);
 
         // Methods that should be executed HERE
         for (int i = 0; i < 60; i++) {

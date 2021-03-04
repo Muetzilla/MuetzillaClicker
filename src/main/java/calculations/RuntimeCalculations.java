@@ -4,17 +4,16 @@ import java.time.Instant;
 
 public class RuntimeCalculations {
 
-    private int clicks = 0;
-    private int clicksForStage = 0;
-    private int clickDamage = 1;
-    private int clickerLevel = 1;
-    private int clicksNeededForNextLevel = 10;
+    private double clicks = 0;
+    private double clicksForStage = 0;
+    private double clickDamage = 1;
+    private double clickerLevel = 1;
+    private double clicksNeededForNextLevel = 10;
+    private double iceWolfCurrentLevel = 0;
+    private double IceWolfCurrentDamage = 10;
 
-    int iceWolfCurrentLevel = 0;
-    int IceWolfCurrentDamage = 10;
-
-    long unixTimeEnd;
-    long unixTimeStart;
+    private long unixTimeEnd;
+    private long unixTimeStart;
     int clicksNeededForNextLevelIW = 10;
 
     public RuntimeCalculations() {
@@ -31,35 +30,35 @@ public class RuntimeCalculations {
         System.out.println(clicks);
     }
 
-    public int getClickerLevel() {
+    public double getClickerLevel() {
         return clickerLevel;
     }
 
-    public void setClickerLevel(int clickerLevel) {
+    public void setClickerLevel(double clickerLevel) {
         this.clickerLevel = clickerLevel;
     }
 
-    public int getClickDamage() {
+    public double getClickDamage() {
         return clickDamage;
     }
 
-    public void setClickDamage(int clickDamage) {
+    public void setClickDamage(double clickDamage) {
         this.clickDamage = clickDamage;
     }
 
-    public int getClicksForStage() {
+    public double getClicksForStage() {
         return clicksForStage;
     }
 
-    public void setClicksForStage(int clicksForStage) {
+    public void setClicksForStage(double clicksForStage) {
         this.clicksForStage = clicksForStage;
     }
 
-    public int getClicksNeededForNextLevel() {
+    public double getClicksNeededForNextLevel() {
         return clicksNeededForNextLevel;
     }
 
-    public void setClicksNeededForNextLevel(int clicksNeededForNextLevel) {
+    public void setClicksNeededForNextLevel(double clicksNeededForNextLevel) {
         this.clicksNeededForNextLevel = clicksNeededForNextLevel;
     }
 
