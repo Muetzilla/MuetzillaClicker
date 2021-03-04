@@ -2,6 +2,9 @@ package controller;
 
 
 import calculations.RuntimeCalculations;
+import javafx.fxml.FXML;
+
+import java.awt.*;
 
 public class GameframeController {
      RuntimeCalculations calc = new RuntimeCalculations();
@@ -10,8 +13,10 @@ public class GameframeController {
     }
     public void handleLevelUpAction(javafx.event.ActionEvent actionEvent) {
         calc.clickerLevelUp(true);
+        setLevelUp();
     }
     public void setLevelUp(){
-        levelUpCosts.setText();
+        Label levelUpCosts = new Label();
+        levelUpCosts.setText("It is doing the work");
     }
 }
