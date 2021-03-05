@@ -20,7 +20,7 @@ public class RuntimeCalculations {
        unixTimeStart = Instant.now().getEpochSecond();
     }
 
-    public void setClicks(int clicks) {
+    public void setClicks(double clicks) {
         this.clicks = clicks;
     }
     public void clicksClicked(boolean clickWasPressed){

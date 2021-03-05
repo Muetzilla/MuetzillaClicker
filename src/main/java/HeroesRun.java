@@ -19,7 +19,7 @@ public class HeroesRun implements Runnable {
         heroesList.add(iceWolf);
         double iceWolfDamage = iceWolf.currentDPS;
         double iceWolfPrice = iceWolf.currentPrice;
-        rtc.setClicks(iceWolfDamage);
+        rtc.setClicks((int) iceWolfDamage);
 
         // Methods that should be executed HERE
         for (int i = 0; i < 60; i++) {

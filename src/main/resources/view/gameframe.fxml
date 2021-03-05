@@ -11,6 +11,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
+<?import javafx.scene.control.TextField?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameframeController">
    <center>
       <SplitPane dividerPositions="0.29797979797979796" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
@@ -75,11 +76,11 @@
    </center>
    <top>
       <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-        <buttons>
+         <buttons>
             <Label text="Münzen: " />
             <Label text="Aktueller Schaden: " />
             <Label text="Level des Clickers: " />
-            <Label fx:id="levelUpCosts" text="Level Up Kosten: "/>
+            <Label fx:id="#levelUpCosts" text="Level Up Kosten: "/>
           <Button mnemonicParsing="false" onAction="#handleLevelUpAction" text="Level Up" />
         </buttons>
       </ButtonBar>
