@@ -9,7 +9,7 @@ import java.awt.*;
 public class GameframeController {
      RuntimeCalculations calc = new RuntimeCalculations();
     @FXML
-    private Label levelUpCosts;
+    private Label levelUpCosts =  new Label();
     public void handleClickerAction(javafx.event.ActionEvent actionEvent) {
        calc.clicksClicked(true);
     }
